@@ -6,5 +6,18 @@
     .nav-links{
         display: none;
     } 
+    .banner-container{
+        flex-direction: column;
+     }
+    .card-1{
+        top: 17%;
+        left: 40%;
+      
+    }
+    .card-2{
+        top: 60%;
+        left: 24%;
+      
+    }
     
 }

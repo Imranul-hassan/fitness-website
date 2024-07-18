@@ -43,5 +43,11 @@
         margin-left: 40px;
         width: 60%;
     }
-    
+    .run-container{
+      flex-direction: column;
+    }
+    .run-img img{
+        width: 80%;
+        border-radius: 15px;
+    }
 }

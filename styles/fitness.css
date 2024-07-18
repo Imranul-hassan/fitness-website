@@ -158,7 +158,7 @@
 /* habits section design start */
 .habits{
     width: 900px;
-    height: 430px;
+    /* height: 430px; */
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -186,9 +186,31 @@
     width: 100%;
     border-radius: 180px;
 }
-/* .habit-info{
-    text-align: center;
-    padding-right: 5px;
-} */
 
 /* habits section design end */
+
+/* run section styles start */
+.run-container{
+    width: 900px;
+    background: rgb(34, 34, 34);;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.run-content{
+    width: 50%;
+    padding: 20px 20px;
+
+}
+.run-img{
+    width: 50%;
+    padding: 20px 20px;
+    margin-left: 20px;
+    
+}
+.run-img img{
+    width: 100%;
+    border-radius: 15px;
+}

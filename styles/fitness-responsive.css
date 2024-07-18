@@ -2,27 +2,46 @@
 @media screen and (max-width:576px) {
     .nav-hamburger-menu{
         display: block;
+
     }   
     .nav-links{
         display: none;
     } 
     .banner-container{
         flex-direction: column;
+
      }
     .card-1{
-        top: 17%;
-        left: 40%;
+        top: 18%;
+        left: 55%;
       
     }
     .card-2{
-        top: 60%;
-        left: 24%;
-      
+        top: 70%;
+        left: 17%;
+
+    }
+    .habits-heading{
+        margin-left: 0px;
+        width:600px;
+        text-align: left;  
     }
     .habits-content{
-        
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .habit{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
         
+       
+    }
+    .habit img{
+        margin-left: 40px;
+        width: 60%;
     }
     
 }

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/miama');
 *{
     font-family: "Inter", sans-serif;
     color: rgb(255, 255, 255);
@@ -76,19 +76,19 @@
 
 /* banner styles start */
 .banner-container{
-    width: 900px;
-    height: 400px;
-    margin: 0 auto;
     display: flex;
-    
+    width: 900px;
+    /* height: 400px; */
+    margin: 0 auto;
 }
 .banner-content{
     max-width: 50%;
     height: 100%;
 }
 .shape-design{
-    font: Miama;
-    font-weight: 400;
+    font-family: 'Miama', sans-serif;                                          
+    font-weight: 700;
+    font-size: 3.6rem;
     
 }
 .banner-img{
@@ -107,7 +107,7 @@
     max-width: max-content;
     padding: 5px 10px;
     position: absolute;
-    top: 12%;
+    top: 20%;
     left: 70%;
     border-radius: 12px;
     backdrop-filter: blur(20px);
@@ -121,8 +121,8 @@
     max-height: 100px;
     padding: 5px 10px;
     position: absolute;
-    top: 60%;
-    left: 27%;
+    top: 70%;
+    left: 17%;
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
@@ -142,7 +142,7 @@
 }
 .banner-title{
     font: Inter;
-    font-size: 3.2rem;
+    font-size: 3.6rem;
     font-weight: 700;
 }
 .download-btn{
@@ -164,8 +164,9 @@
     margin-bottom: 50px;
 }
 .habits-heading{
-    text-align: center;
-   
+    width:700px;
+    margin: 0 auto;
+    text-align: center;  
 }
 .habits-content{
     display: grid;
@@ -173,15 +174,21 @@
     margin-top: 30px;
 }
 .habit{
-    padding-left: 15px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 7px 7px;
+    margin-left: 7px;
    
 }
 .habit img{
+    width: 100%;
     border-radius: 180px;
 }
-.habit-info{
+/* .habit-info{
     text-align: center;
     padding-right: 5px;
-}
+} */
 
 /* habits section design end */

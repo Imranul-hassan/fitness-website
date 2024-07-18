@@ -27,7 +27,12 @@
     border-radius: 46px;
     padding: 5px 20px 5px 20px
 }
-
+.heading-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
 
 
 
@@ -69,7 +74,7 @@
     display: none;
 }
 
-/* banner styles */
+/* banner styles start */
 .banner-container{
     width: 900px;
     height: 400px;
@@ -109,7 +114,10 @@
     background: rgba(255, 255, 255, 0.1);
 }
 .card-2{
-    max-width: 150px;
+    display: flex;
+    max-width: max-content;
+    justify-content: center;
+    align-items: center;
     max-height: 100px;
     padding: 5px 10px;
     position: absolute;
@@ -118,6 +126,14 @@
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
+}
+.circle-shape{
+    width: 15px;
+    height: 15px;
+    border-radius: 180px;
+    margin-right: 8px;
+    background-color: rgb(230, 83, 60);
+    border: 1px solid red;
 }
 .card-text{
     font-weight: 400;
@@ -135,5 +151,37 @@
     font-weight: 400;
     font-size: 1.1rem;
     border-radius: 46px;
-    padding: 5px 20px 5px 20px
+    padding: 5px 20px 5px 20px;
 }
+/* banner styles end */
+
+/* habits section design start */
+.habits{
+    width: 900px;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.habits-heading{
+    text-align: center;
+   
+}
+.habits-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+}
+.habit{
+    padding-left: 15px;
+   
+}
+.habit img{
+    border-radius: 180px;
+}
+.habit-info{
+    text-align: center;
+    padding-right: 5px;
+}
+
+/* habits section design end */

@@ -23,7 +23,7 @@
     }
     .habits-heading{
         margin-left: 0px;
-        width:600px;
+        width:480px;
         text-align: left;  
     }
     .habits-content{
@@ -50,4 +50,27 @@
         width: 80%;
         border-radius: 15px;
     }
+
+    .team-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-member img{
+        width: 306.67px;
+        height: 252px;
+        width: 45%;
+       
+    }
+    .team-heading{
+        width:480px;
+        margin-left: 0px;
+        text-align: left;  
+    }
+
+    .footer-container{
+       flex-direction: column;
+    }
+    .footer-right{
+        flex-direction: column;
+     }
+
 }

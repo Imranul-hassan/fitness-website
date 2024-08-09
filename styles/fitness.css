@@ -192,7 +192,7 @@
 /* run section styles start */
 .run-container{
     width: 900px;
-    background: rgb(34, 34, 34);;
+    background: rgb(34, 34, 34);
     margin: 0 auto;
     display: flex;
     border-radius: 16px;
@@ -213,4 +213,81 @@
 .run-img img{
     width: 100%;
     border-radius: 15px;
+}
+/* run section styles end */
+
+
+/* team section styles start*/
+
+.team-container{
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 18px;
+    margin-bottom: 50px;
+    
+}
+
+.team-heading{
+    width:700px;
+    margin: 0 auto;
+    text-align: center;  
+}
+.team-content{
+    display: grid;
+    background: rgb(34, 34, 34);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+.team-member img{
+    width: 306.67px;
+    height: 252px;
+    width: 100%;
+    border-radius: 15px;
+}
+.team-member{
+    position: relative;
+}
+
+.member-title{
+    position: absolute;
+    top: 65%;
+    left: 10px;
+}
+
+/* team section styles end*/
+
+
+/* footer section styles start */
+footer{
+    background: rgba(255, 255, 255, 0.1);
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+.footer-container{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.footer-left{
+    padding-left: 10px;
+    width: 50%;
+    
+}
+.footer-right{
+    width: 50%;
+    justify-content: space-around;
+}
+.footer-heading{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: rgb(230, 83, 60);
+    font: Inter;
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+.right-reserved{
+    text-align: center;
 }

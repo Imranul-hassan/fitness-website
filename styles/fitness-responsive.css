@@ -50,7 +50,15 @@
         width: 80%;
         border-radius: 15px;
     }
-
+    .bmi-container{
+        flex-direction: column;
+    }
+    .bmi-chart{
+        margin-left: 0px; 
+    }
+    .bmi-calculate{
+        padding-left: 0px;
+    }
     .team-content{
         grid-template-columns: repeat(1, 1fr);
     }

@@ -216,6 +216,68 @@
 }
 /* run section styles end */
 
+/* bmi section styles start */
+.bmi{
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;  
+    
+}
+.bmi-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+.bmi-description{
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-container{
+    background: rgb(34, 34, 34);
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.bmi-chart{
+    padding: 20px;
+    margin-left: 140px;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 0px;
+    font-weight: 400px;
+}
+td{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-calculate{
+    width: 500px;
+    padding: 20px;
+    margin-right: 100px; 
+    padding-left: 100px;
+}
+.bmi-heading{
+    font-weight: 600;
+    font-size: 18px;
+}
+input{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.bmi-input{
+    margin-bottom: 10px;
+}
+#activity{
+    width: 376px;
+}
+
+/* bmi section end */
 
 /* team section styles start*/
 

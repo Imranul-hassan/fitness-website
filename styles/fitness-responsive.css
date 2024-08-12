@@ -50,6 +50,15 @@
         width: 80%;
         border-radius: 15px;
     }
+    .healthy-eating{
+        width: 500px;
+        text-align: justify;
+       
+    }
+    .healthy-heading-title{
+       text-align: left;
+    }
+
     .bmi-container{
         flex-direction: column;
     }

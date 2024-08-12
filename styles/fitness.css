@@ -216,19 +216,51 @@
 }
 /* run section styles end */
 
+/* healthy-eating section styles start */
+.healthy-eating{
+    width: 900px;
+    /* background: rgb(34, 34, 34); */
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.healthy-heading-title{
+    width:700px;
+    margin: 0 auto;
+    text-align: center; 
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.healthy-eating-content{
+    padding: 20px 20px;
+    
+}
+.healthy-eating-img img{
+    height: 350px;
+    width: 100%;
+    border-radius: 5px 5px;
+    padding-top: 40px;
+}
+/* healthy-eating section styles end */
+
 /* bmi section styles start */
 .bmi{
     width: 500px;
     margin: 0 auto;
-    text-align: left;  
+    text-align: left; 
+    margin-bottom: 50px; 
     
 }
 .bmi-title{
     font-weight: 700;
     font-size: 30px;
+    margin-bottom: 0px;
 }
 .bmi-description{
     color: rgba(255, 255, 255, 0.5);
+   
 }
 .bmi-container{
     background: rgb(34, 34, 34);

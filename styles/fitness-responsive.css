@@ -50,6 +50,15 @@
         width: 80%;
         border-radius: 15px;
     }
+    .healthy-eating-img{
+        flex-direction: column;
+     }
+     .image-1{
+        width: 80%;
+     }
+     .image-2{
+        width: 80%;
+     }
     .healthy-eating{
         width: 500px;
         text-align: justify;

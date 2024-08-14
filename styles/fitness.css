@@ -237,12 +237,33 @@
     padding: 20px 20px;
     
 }
-.healthy-eating-img img{
+.healthy-eating-img{
+    display: flex;
+}
+ .image-1{
+    height: 350px;
+    width: 50%;
+    border-radius: 5px 5px;
+    padding-top: 30px;
+    margin-right: 20px;
+ }
+ .image-2{
+    height: 350px;
+    width: 50%;
+    border-radius: 5px 5px;
+    padding-top: 30px;
+    /* margin-left: 20px; */
+ }
+ .image-1 img{
     height: 350px;
     width: 100%;
     border-radius: 5px 5px;
-    padding-top: 40px;
-}
+ }
+ .image-2 img{
+    height: 350px;
+    width: 100%;
+    border-radius: 5px 5px;
+ }
 /* healthy-eating section styles end */
 
 /* bmi section styles start */
